@@ -1,0 +1,57 @@
+.button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  width: fit-content;
+  font-size: 1rem;
+}
+.showButton {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.button:hover,
+.exitButton:hover {
+  cursor: pointer;
+}
+
+.offerContainer {
+  background: white;
+  width: 300px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.exitButton {
+  margin: 10px;
+}
+.offerContainer > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 75%;
+  transform: translate(-50%, -40%);
+  font-size: 1.3em;
+}
+.acceptButton {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  background: rgb(2, 190, 74);
+}
+.offerAccepted {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
