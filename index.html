@@ -8,13 +8,21 @@
     <title>Modal Overlay</title>
   </head>
   <body>
-    <button class="showButton button">Show Offer</button>
     <div class="offerContainer">
-      <button class="exitButton">x</button>
-      <p>Click the button below to accept our amazing offer!</p>
-      <button class="acceptButton button">Accept offer</button>
+      <button class="showButton button">Show Offer #1</button>
+      <button class="showButton button">Show Offer #2</button>
     </div>
-    <h2 class="offerAccepted">Offer Accepted!</h2>
+    <div class="modal">
+      <button class="exitButton">x</button>
+      <div class="modal__content">
+        <p>Click the button below to accept our amazing offer!</p>
+        <button class="acceptButton button">Accept offer</button>
+      </div>
+    </div>
+    <div class="acceptContainer">
+      <h2 class="offerAccepted">Offer Accepted!</h2>
+      <button class="retryButton button">RETRY</button>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
